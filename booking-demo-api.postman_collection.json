@@ -1,11 +1,8 @@
 {
   "info": {
-    "_postman_id": "f911fcf4-3f54-4a21-97ed-1b0686b25b00",
-    "name": "MISE — QA Booking Demo API",
-    "description": "Demo API для тестового задания Junior QA.",
-    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-    "_exporter_id": "52136648",
-    "_collection_link": "https://go.postman.co/collection/52136648-f911fcf4-3f54-4a21-97ed-1b0686b25b00?source=collection_link"
+    "name": "QA Booking Demo API",
+    "description": "Postman collection for manual REST API testing of a booking service.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
   },
   "item": [
     {
@@ -74,7 +71,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n  \"name\": \"Анна\",\n  \"phone\": \"+79991234567\",\n  \"date\": \"2026-12-08\",\n  \"time\": \"14:00\",\n  \"guests\": 4\n}"
+          "raw": "{\n  \"name\": \"Анна\",\n  \"phone\": \"+79991234567\",\n  \"date\": \"2026-12-10\",\n  \"time\": \"14:00\",\n  \"guests\": 4\n}"
         },
         "url": {
           "raw": "{{base_url}}/api/booking",
